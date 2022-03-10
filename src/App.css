@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+/*In this folder we will design all the variables 
+we will put in the new site we have created */
+
+.Search {
+  padding-left: 45px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.addUserDiv {
+  margin-left: 0em;
+  border: 5px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.addUserBth {
+ 
+  background-color: rgba(153, 171, 229, 0.76);
+  border-radius: 6px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.addInputs {
+  width: 200px;
+  height: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.userBth {
+  margin-left: 5em;
+  background-color: rgb(255, 255, 255);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.addBth {
+  background-color: rgb(255, 255, 255);
+  margin-left: 2px;
 }
+
+
+.main {
+  border: 12px solid black;
+  
+}
+
+
+.completed {
+  border: 2px solid green;
+  margin: 5px solid black;
+} 
+
+
+.notCompleted {
+  background-color: rgba(140, 207, 53, 0.678);
+  border: 5px solid black;
+}
+
+
+.IDclickd{
+  background-color: rgba(119, 108, 11, 0.637)k
+}
+
+
+.IDnotClick{
+  background-color: white;
+}
+
+
+.updateBth {
+  background-color:  rgba(71, 184, 105, 0.452);
+  margin-left: 5em;
+}
+
+
+
+.DeleteUsersBth {
+  background-color:  rgba(190, 24, 24, 0.445);
+} 
+
+
+.otherDataDiv {
+  background-color: rgba(70, 70, 68, 0.521);
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.otherDataBth {
+  background-color: rgb(233, 233, 221);
+}
+
+
+.todosTitles {
+  border: 2px solid rgb(25, 26, 25);
+  
+}
+
+
+.CompletedBth {
+  background-color: rgba(71, 155, 32, 0.801);
+}
+
+
+.TasksTodos {
+  background-color: white;
+  border: 4px solid black;
+  margin: 1em
+}
+
+
+.addTodoBth {
+  background-color: rgba(153, 171, 229, 0.76);
+  margin-left: 5em;
+}
+
+
+.cancelBth {
+  margin-left: 20em;
+  background-color: rgb(243, 243, 102)
+}
+
+
+.addTodoBth{
+margin-left: 2px;
+background-color: rgb(243, 243, 102)
+} 
+
+
+
